@@ -1,6 +1,6 @@
 {
-  "data_through_date": "2026-08-26",
-  "generated_at_utc": "2026-08-27T19:49:05.062678+00:00",
+  "data_through_date": "2026-08-27",
+  "generated_at_utc": "2026-08-28T07:31:11.828277+00:00",
   "methodology": {
     "cumulative_method": "OptionsSuite compounds official daily TWR geometrically from daily return observations.",
     "privacy": "Private brokerage state and identifiers are excluded from the public dataset.",
@@ -223,7 +223,8 @@
       44.932232921684665,
       43.46216310852837,
       46.31326079857996,
-      45.94374529186729
+      45.94374529186729,
+      47.96448183167337
     ],
     "daily_return_pct": [
       0.0,
@@ -439,7 +440,8 @@
       -0.839199869,
       -1.0143153,
       1.987351667,
-      -0.252550934
+      -0.252550934,
+      1.384599618
     ],
     "date": [
       "2025-10-31",
@@ -655,7 +657,8 @@
       "2026-08-21",
       "2026-08-24",
       "2026-08-25",
-      "2026-08-26"
+      "2026-08-26",
+      "2026-08-27"
     ],
     "drawdown_pct": [
       0.0,
@@ -871,30 +874,31 @@
       -2.283881354031192,
       -3.275030896023412,
       -1.352765610130302,
-      -1.6019001219470863
+      -1.6019001219470863,
+      -0.23948040691631478
     ]
   },
   "source_label": "Interactive Brokers official daily TWR",
   "summary": {
     "annualization_days": 252,
-    "annualized_volatility_pct": 53.27446846366474,
+    "annualized_volatility_pct": 53.16448297121548,
     "best_day_pct": 20.295216112,
-    "current_drawdown_pct": -1.6019001219470863,
-    "data_end_date": "2026-08-26",
+    "current_drawdown_pct": -0.23948040691631478,
+    "data_end_date": "2026-08-27",
     "data_start_date": "2025-10-31",
     "max_drawdown_pct": -28.35867330130971,
-    "mtd_return_pct": 15.003557108101573,
-    "observation_count": 214,
-    "positive_day_rate_pct": 57.943925233644855,
+    "mtd_return_pct": 16.59589592050674,
+    "observation_count": 215,
+    "positive_day_rate_pct": 58.139534883720934,
     "risk_free_rate_convention": "0% annual; OptionsSuite-derived",
-    "sharpe_ratio": 1.0998235305374722,
-    "since_inception_return_pct": 45.94374529186729,
-    "sortino_ratio": 1.3156741896884958,
-    "trailing_1m_return_pct": 23.618747642563708,
+    "sharpe_ratio": 1.1274984138758812,
+    "since_inception_return_pct": 47.96448183167337,
+    "sortino_ratio": 1.3459959615225814,
+    "trailing_1m_return_pct": 23.42522532726823,
     "trailing_1y_return_pct": null,
-    "trailing_3m_return_pct": 1.5807411953054906,
-    "trailing_6m_return_pct": 14.680867428700672,
+    "trailing_3m_return_pct": 3.35448020718776,
+    "trailing_6m_return_pct": 15.437138390666494,
     "worst_day_pct": -16.183968811,
-    "ytd_return_pct": 26.397609154033887
+    "ytd_return_pct": 28.14770996754177
   }
 }
