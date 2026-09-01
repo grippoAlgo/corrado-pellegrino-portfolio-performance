@@ -1,6 +1,6 @@
 {
   "data_through_date": "2026-08-28",
-  "generated_at_utc": "2026-09-01T11:57:56.183028+00:00",
+  "generated_at_utc": "2026-09-01T12:16:28.013370+00:00",
   "methodology": {
     "contribution_to_account_return": "Current-strategy economic P&L, starting from each strategy performance_start_date, is mapped to official flow-aware daily account TWR and linked through account wealth over the selected window. Values are percentage-point contributions to account TWR, not strategy returns.",
     "fail_closed": "Unavailable metrics remain unavailable when exact validated inputs or reconciliation are missing.",
