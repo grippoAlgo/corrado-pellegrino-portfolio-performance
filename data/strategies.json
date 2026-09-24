@@ -1,17 +1,17 @@
 {
-  "data_through_date": "2026-09-01",
-  "generated_at_utc": "2026-09-24T07:30:35.120403+00:00",
+  "data_through_date": "2026-09-23",
+  "generated_at_utc": "2026-09-24T12:26:04.798505+00:00",
   "methodology": {
     "contribution_to_account_return": "Current-strategy economic P&L, starting from each strategy performance_start_date, is mapped to official flow-aware daily account TWR and linked through account wealth over the selected window. Values are percentage-point contributions to account TWR, not strategy returns.",
     "fail_closed": "Unavailable metrics remain unavailable when exact validated inputs or reconciliation are missing.",
     "return_on_margin": "Economic strategy P&L including commissions divided by average validated daily maintenance margin; non-compounded.",
     "strategy_twr": "Not calculated or published; no arbitrary strategy-capital allocation is introduced."
   },
-  "schema_version": "1.2.0",
+  "schema_version": "1.2.1",
   "source_label": "Interactive Brokers Flex + validated IBKR TWS What-If Margin + official IB daily TWR",
   "strategies": [
     {
-      "data_through_date": "2026-09-01",
+      "data_through_date": "2026-09-23",
       "inception_date": "2026-05-11",
       "performance_start_date": "2026-05-12",
       "series": {
@@ -96,7 +96,23 @@
           1.384599618,
           -1.476935001,
           1.14290136,
-          -3.323751787
+          -3.323751787,
+          1.560792337,
+          0.085560522,
+          0.542502593,
+          -0.012775539,
+          1.680827324,
+          0.975339028,
+          -2.574835594,
+          1.817234095,
+          -2.498543523,
+          1.627796939,
+          0.893863891,
+          2.249032602,
+          1.455540313,
+          0.628550553,
+          1.494137455,
+          -0.652909456
         ],
         "cumulative_contribution_pp": [
           -0.0929799041099201,
@@ -179,7 +195,23 @@
           -1.876080353424545,
           -2.9669800438124416,
           -2.0161560065171913,
-          -4.596949265687724
+          -4.596949265687724,
+          -3.395258326685207,
+          -4.107050818262209,
+          -3.210536618105965,
+          -3.210536618105965,
+          -3.015839783937802,
+          -2.5344974145756027,
+          -4.883106780398923,
+          -3.356380848773229,
+          -4.923832690672175,
+          -3.6839798581629406,
+          -3.6691358890393584,
+          -1.4025882990488563,
+          0.18140623276290158,
+          0.879929836608934,
+          1.706361265452034,
+          -0.6664987993856262
         ],
         "daily_contribution_pp": [
           -0.0929799041099201,
@@ -262,7 +294,23 @@
           0.5974252397862738,
           -1.0057444765072119,
           0.8897440162810524,
-          -2.387716341601925
+          -2.387716341601925,
+          1.150012377062807,
+          -0.6707135034429976,
+          0.8440523720072504,
+          0.0,
+          0.18233788276234705,
+          0.44333604032591284,
+          -2.142271031026297,
+          1.4293992881593256,
+          -1.4413365199319117,
+          1.1693114961613484,
+          0.013775190455903199,
+          2.084719639116155,
+          1.4248767029246174,
+          0.6193397087956038,
+          0.7281711148095206,
+          -2.059955281397862
         ],
         "date": [
           "2026-05-12",
@@ -345,7 +393,23 @@
           "2026-08-27",
           "2026-08-28",
           "2026-08-31",
-          "2026-09-01"
+          "2026-09-01",
+          "2026-09-02",
+          "2026-09-03",
+          "2026-09-04",
+          "2026-09-07",
+          "2026-09-08",
+          "2026-09-09",
+          "2026-09-10",
+          "2026-09-11",
+          "2026-09-14",
+          "2026-09-15",
+          "2026-09-16",
+          "2026-09-17",
+          "2026-09-18",
+          "2026-09-21",
+          "2026-09-22",
+          "2026-09-23"
         ],
         "status": "VALID"
       },
@@ -355,35 +419,35 @@
       "windows": {
         "1D": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -2.387716341601925,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": -2.059955281397862,
+          "end_date": "2026-09-23",
           "label": "Last 1 Day",
-          "return_on_margin_pct": -14.057969606202194,
-          "rom_status": "VALID",
-          "start_date": "2026-09-01"
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-23"
         },
         "1M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 1.9642196394122462,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 1.501358834866415,
+          "end_date": "2026-09-23",
           "label": "Last 1 Month",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-08-01"
+          "start_date": "2026-08-23"
         },
         "1W": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -1.2446550762822104,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 2.80021980210827,
+          "end_date": "2026-09-23",
           "label": "Last 1 Week",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-08-25"
+          "start_date": "2026-09-16"
         },
         "1Y": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -4.596949265687724,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": -0.6664987993856262,
+          "end_date": "2026-09-23",
           "label": "Last 1 Year",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
@@ -391,26 +455,26 @@
         },
         "2M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 4.060050468733947,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 7.733763222646719,
+          "end_date": "2026-09-23",
           "label": "Last 2 Months",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-07-01"
+          "start_date": "2026-07-23"
         },
         "3M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -8.765878710409822,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": -0.03549052522319289,
+          "end_date": "2026-09-23",
           "label": "Last 3 Months",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-06-01"
+          "start_date": "2026-06-23"
         },
         "6M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -4.596949265687724,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": -0.6664987993856262,
+          "end_date": "2026-09-23",
           "label": "Last 6 Months",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
@@ -418,8 +482,8 @@
         },
         "INCEPTION": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -4.596949265687724,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": -0.6664987993856262,
+          "end_date": "2026-09-23",
           "label": "Inception",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
@@ -427,17 +491,17 @@
         },
         "MTD": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -2.387716341601925,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 1.2486852860366653,
+          "end_date": "2026-09-23",
           "label": "Month to Date",
-          "return_on_margin_pct": -14.057969606202194,
-          "rom_status": "VALID",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
           "start_date": "2026-09-01"
         },
         "YTD": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -4.596949265687724,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": -0.6664987993856262,
+          "end_date": "2026-09-23",
           "label": "Year to Date",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
@@ -446,7 +510,7 @@
       }
     },
     {
-      "data_through_date": "2026-09-01",
+      "data_through_date": "2026-09-23",
       "inception_date": "2026-05-14",
       "performance_start_date": "2026-05-14",
       "series": {
@@ -529,7 +593,23 @@
           1.384599618,
           -1.476935001,
           1.14290136,
-          -3.323751787
+          -3.323751787,
+          1.560792337,
+          0.085560522,
+          0.542502593,
+          -0.012775539,
+          1.680827324,
+          0.975339028,
+          -2.574835594,
+          1.817234095,
+          -2.498543523,
+          1.627796939,
+          0.893863891,
+          2.249032602,
+          1.455540313,
+          0.628550553,
+          1.494137455,
+          -0.652909456
         ],
         "cumulative_contribution_pp": [
           1.39172485480187,
@@ -610,7 +690,23 @@
           10.14036288755269,
           9.543539792702873,
           9.852277992454141,
-          8.809435107557439
+          8.809435107557439,
+          9.240856505907681,
+          10.097661297576686,
+          9.741748037357365,
+          9.741748037357365,
+          11.34572816764821,
+          11.956929817460061,
+          11.405253221597185,
+          11.78255134414384,
+          10.497711893384633,
+          10.853263372114496,
+          11.489361456223428,
+          12.168951422302591,
+          12.447189268414851,
+          12.56375051716359,
+          13.447359188878524,
+          13.32794669707788
         ],
         "daily_contribution_pp": [
           1.39172485480187,
@@ -691,7 +787,23 @@
           0.7864731732827007,
           -0.5493200365433504,
           0.2884245829395034,
-          -0.9632197541127091
+          -0.9632197541127091,
+          0.4121814022575973,
+          0.806013872186187,
+          -0.3345286922991268,
+          0.0,
+          1.4996640619282096,
+          0.5620053459892853,
+          -0.5023717028693042,
+          0.3526582967775479,
+          -1.1794975130939598,
+          0.3347646197010082,
+          0.5893165525151208,
+          0.6240318493053267,
+          0.24987153956463337,
+          0.10317607757408657,
+          0.777255088706116,
+          -0.10349334132190692
         ],
         "date": [
           "2026-05-14",
@@ -772,7 +884,23 @@
           "2026-08-27",
           "2026-08-28",
           "2026-08-31",
-          "2026-09-01"
+          "2026-09-01",
+          "2026-09-02",
+          "2026-09-03",
+          "2026-09-04",
+          "2026-09-07",
+          "2026-09-08",
+          "2026-09-09",
+          "2026-09-10",
+          "2026-09-11",
+          "2026-09-14",
+          "2026-09-15",
+          "2026-09-16",
+          "2026-09-17",
+          "2026-09-18",
+          "2026-09-21",
+          "2026-09-22",
+          "2026-09-23"
         ],
         "status": "VALID"
       },
@@ -782,35 +910,35 @@
       "windows": {
         "1D": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -0.9632197541127091,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": -0.10349334132190692,
+          "end_date": "2026-09-23",
           "label": "Last 1 Day",
-          "return_on_margin_pct": -5.833219052377587,
-          "rom_status": "VALID",
-          "start_date": "2026-09-01"
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-23"
         },
         "1M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 10.219220170369375,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 4.698107314405411,
+          "end_date": "2026-09-23",
           "label": "Last 1 Month",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-08-01"
+          "start_date": "2026-08-23"
         },
         "1W": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 0.5185495638169245,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 2.292683914740938,
+          "end_date": "2026-09-23",
           "label": "Last 1 Week",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-08-25"
+          "start_date": "2026-09-16"
         },
         "1Y": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 8.809435107557439,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 13.32794669707788,
+          "end_date": "2026-09-23",
           "label": "Last 1 Year",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
@@ -818,26 +946,26 @@
         },
         "2M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 9.645276601228984,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 21.966888127708057,
+          "end_date": "2026-09-23",
           "label": "Last 2 Months",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-07-01"
+          "start_date": "2026-07-23"
         },
         "3M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 10.36995508942642,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 17.992131518338443,
+          "end_date": "2026-09-23",
           "label": "Last 3 Months",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-06-01"
+          "start_date": "2026-06-23"
         },
         "6M": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 8.809435107557439,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 13.32794669707788,
+          "end_date": "2026-09-23",
           "label": "Last 6 Months",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
@@ -845,8 +973,8 @@
         },
         "INCEPTION": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 8.809435107557439,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 13.32794669707788,
+          "end_date": "2026-09-23",
           "label": "Inception",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
@@ -854,21 +982,164 @@
         },
         "MTD": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": -0.9632197541127091,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 3.21029447822961,
+          "end_date": "2026-09-23",
           "label": "Month to Date",
-          "return_on_margin_pct": -5.833219052377587,
-          "rom_status": "VALID",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
           "start_date": "2026-09-01"
         },
         "YTD": {
           "contribution_status": "VALID",
-          "contribution_to_account_return_pp": 8.809435107557439,
-          "end_date": "2026-09-01",
+          "contribution_to_account_return_pp": 13.32794669707788,
+          "end_date": "2026-09-23",
           "label": "Year to Date",
           "return_on_margin_pct": null,
           "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
           "start_date": "2026-05-14"
+        }
+      }
+    },
+    {
+      "data_through_date": "2026-09-23",
+      "inception_date": "2026-09-14",
+      "performance_start_date": "2026-09-14",
+      "series": {
+        "account_daily_return_pct": [
+          -2.498543523,
+          1.627796939,
+          0.893863891,
+          2.249032602,
+          1.455540313,
+          0.628550553,
+          1.494137455,
+          -0.652909456
+        ],
+        "cumulative_contribution_pp": [
+          -0.1032857960364058,
+          -0.013868914921059136,
+          -0.03838922794784435,
+          -0.43179176773243494,
+          -0.5911284978915847,
+          -0.8207641318010908,
+          -0.952828595112376,
+          -0.5408648429276748
+        ],
+        "daily_contribution_pp": [
+          -0.1032857960364058,
+          0.09170825169820879,
+          -0.02474585111838903,
+          -0.39350367315070256,
+          -0.1558720775674552,
+          -0.22141953602371425,
+          -0.12654395653301395,
+          0.38893182923174024
+        ],
+        "date": [
+          "2026-09-14",
+          "2026-09-15",
+          "2026-09-16",
+          "2026-09-17",
+          "2026-09-18",
+          "2026-09-21",
+          "2026-09-22",
+          "2026-09-23"
+        ],
+        "status": "VALID"
+      },
+      "status": "ACTIVE",
+      "strategy": "QQQ",
+      "underlying": "QQQ",
+      "windows": {
+        "1D": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": 0.38893182923174024,
+          "end_date": "2026-09-23",
+          "label": "Last 1 Day",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-23"
+        },
+        "1M": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Last 1 Month",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
+        },
+        "1W": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5318432419767009,
+          "end_date": "2026-09-23",
+          "label": "Last 1 Week",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-16"
+        },
+        "1Y": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Last 1 Year",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
+        },
+        "2M": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Last 2 Months",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
+        },
+        "3M": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Last 3 Months",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
+        },
+        "6M": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Last 6 Months",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
+        },
+        "INCEPTION": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Inception",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
+        },
+        "MTD": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Month to Date",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
+        },
+        "YTD": {
+          "contribution_status": "VALID",
+          "contribution_to_account_return_pp": -0.5408648429276748,
+          "end_date": "2026-09-23",
+          "label": "Year to Date",
+          "return_on_margin_pct": null,
+          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "start_date": "2026-09-14"
         }
       }
     }
