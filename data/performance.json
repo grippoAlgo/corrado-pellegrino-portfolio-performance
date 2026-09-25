@@ -1,6 +1,6 @@
 {
   "data_through_date": "2026-09-24",
-  "generated_at_utc": "2026-09-25T07:08:49.859520+00:00",
+  "generated_at_utc": "2026-09-25T07:30:07.237843+00:00",
   "methodology": {
     "cumulative_method": "OptionsSuite compounds official daily TWR geometrically from daily return observations.",
     "privacy": "Private brokerage state and identifiers are excluded from the public dataset.",
