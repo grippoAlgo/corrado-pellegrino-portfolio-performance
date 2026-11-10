@@ -1,6 +1,6 @@
 {
-  "data_through_date": "2026-11-05",
-  "generated_at_utc": "2026-11-09T08:30:39.586426+00:00",
+  "data_through_date": "2026-11-09",
+  "generated_at_utc": "2026-11-10T08:30:32.912924+00:00",
   "methodology": {
     "contribution_to_account_return": "Current-strategy economic P&L, starting from each strategy performance_start_date, is mapped to official flow-aware daily account TWR and linked through account wealth over the selected window. Values are percentage-point contributions to account TWR, not strategy returns.",
     "fail_closed": "Unavailable metrics remain unavailable when exact validated inputs or reconciliation are missing.",
@@ -11,7 +11,7 @@
   "source_label": "Interactive Brokers Flex + validated IBKR TWS What-If Margin + official IB daily TWR",
   "strategies": [
     {
-      "data_through_date": "2026-11-05",
+      "data_through_date": "2026-11-09",
       "inception_date": "2026-05-11",
       "performance_start_date": "2026-05-12",
       "series": {
@@ -28,34 +28,34 @@
         "1D": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Day",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-11-05"
+          "start_date": "2026-11-09"
         },
         "1M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Month",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-10-05"
+          "start_date": "2026-10-09"
         },
         "1W": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Week",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-10-29"
+          "start_date": "2026-11-02"
         },
         "1Y": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Year",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -64,25 +64,25 @@
         "2M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 2 Months",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-09-05"
+          "start_date": "2026-09-09"
         },
         "3M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 3 Months",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-08-05"
+          "start_date": "2026-08-09"
         },
         "6M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 6 Months",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -91,7 +91,7 @@
         "INCEPTION": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Inception",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -100,7 +100,7 @@
         "MTD": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Month to Date",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -109,7 +109,7 @@
         "YTD": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Year to Date",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "data_through_date": "2026-11-05",
+      "data_through_date": "2026-11-09",
       "inception_date": "2026-05-14",
       "performance_start_date": "2026-05-14",
       "series": {
@@ -135,97 +135,97 @@
         "1D": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Day",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-11-05"
+          "rom_status": "MISSING_STRATEGY_PNL",
+          "start_date": "2026-11-09"
         },
         "1M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Month",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-10-05"
+          "rom_status": "MISSING_STRATEGY_PNL",
+          "start_date": "2026-10-09"
         },
         "1W": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Week",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-10-29"
+          "rom_status": "MISSING_STRATEGY_PNL",
+          "start_date": "2026-11-02"
         },
         "1Y": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Year",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "rom_status": "MISSING_STRATEGY_PNL",
           "start_date": "2026-05-14"
         },
         "2M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 2 Months",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-09-05"
+          "rom_status": "MISSING_STRATEGY_PNL",
+          "start_date": "2026-09-09"
         },
         "3M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 3 Months",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
-          "start_date": "2026-08-05"
+          "rom_status": "MISSING_STRATEGY_PNL",
+          "start_date": "2026-08-09"
         },
         "6M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 6 Months",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "rom_status": "MISSING_STRATEGY_PNL",
           "start_date": "2026-05-14"
         },
         "INCEPTION": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Inception",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "rom_status": "MISSING_STRATEGY_PNL",
           "start_date": "2026-05-14"
         },
         "MTD": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Month to Date",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "rom_status": "MISSING_STRATEGY_PNL",
           "start_date": "2026-11-01"
         },
         "YTD": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Year to Date",
           "return_on_margin_pct": null,
-          "rom_status": "INSUFFICIENT_MARGIN_COVERAGE",
+          "rom_status": "MISSING_STRATEGY_PNL",
           "start_date": "2026-05-14"
         }
       }
     },
     {
-      "data_through_date": "2026-11-05",
+      "data_through_date": "2026-11-09",
       "inception_date": "2026-09-14",
       "performance_start_date": "2026-09-14",
       "series": {
@@ -242,34 +242,34 @@
         "1D": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Day",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-11-05"
+          "start_date": "2026-11-09"
         },
         "1M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Month",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-10-05"
+          "start_date": "2026-10-09"
         },
         "1W": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Week",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
-          "start_date": "2026-10-29"
+          "start_date": "2026-11-02"
         },
         "1Y": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 1 Year",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -278,7 +278,7 @@
         "2M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 2 Months",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -287,7 +287,7 @@
         "3M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 3 Months",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -296,7 +296,7 @@
         "6M": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Last 6 Months",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -305,7 +305,7 @@
         "INCEPTION": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Inception",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -314,7 +314,7 @@
         "MTD": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Month to Date",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
@@ -323,7 +323,7 @@
         "YTD": {
           "contribution_status": "UNRECONCILED_DAILY_ATTRIBUTION",
           "contribution_to_account_return_pp": null,
-          "end_date": "2026-11-05",
+          "end_date": "2026-11-09",
           "label": "Year to Date",
           "return_on_margin_pct": null,
           "rom_status": "MISSING_STRATEGY_PNL",
